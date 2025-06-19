@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>autoTGF - Concessionaria Auto</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #f7f7f7; color: #333; }
+    header { background-color: #003366; color: white; padding: 20px; text-align: center; }
+    nav { background-color: #00509e; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1549921296-3a6b0415c5f7') center/cover no-repeat;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .hero h1 { font-size: 3em; }
+    .section { padding: 50px 20px; text-align: center; }
+    .cars { display: flex; flex-wrap: wrap; justify-content: center; gap: 30px; }
+    .car-card {
+      background: white; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      width: 300px; padding: 20px; text-align: left;
+    }
+    .car-card img { width: 100%; border-radius: 10px; }
+    .footer { background-color: #003366; color: white; padding: 30px; text-align: center; }
+    button {
+      background-color: #00509e; color: white; border: none;
+      padding: 10px 20px; margin-top: 10px; cursor: pointer;
+      border-radius: 5px;
+    }
+    button:hover { background-color: #003366; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>autoTGF</h1>
+    <p>La tua concessionaria di fiducia</p>
+  </header>
+  <nav>
+    <a href="#chi-siamo">Chi Siamo</a>
+    <a href="#auto">Auto</a>
+    <a href="#contatti">Contatti</a>
+  </nav>
+  <div class="hero">
+    <h1>Scopri la tua prossima auto</h1>
+    <p>Qualità, servizio e convenienza. Sempre.</p>
+  </div>
+  <div class="section" id="chi-siamo">
+    <h2>Chi Siamo</h2>
+    <p>Siamo una concessionaria con anni di esperienza nella vendita di auto nuove e usate. La soddisfazione del cliente è la nostra priorità.</p>
+  </div>
+  <div class="section" id="auto">
+    <h2>Le Nostre Auto</h2>
+    <div class="cars">
+      <div class="car-card">
+        <img src=" alt="Auto 1">
+        <h3>Fiat 500</h3>
+        <p>Compatta, economica e perfetta per la città. Solo €3.500</p>
+        <button>Scopri di più</button>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1600207982662-3c3a5de86b36" alt="Auto 2">
+        <h3>BMW Serie 3</h3>
+        <p>Eleganza e prestazioni in un'unica auto. Da €19.900</p>
+        <button>Scopri di più</button>
+      </div>
+      <div class="car-card">
+        <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d" alt="Auto 3">
+        <h3>Volkswagen Golf</h3>
+        <p>Affidabile e versatile. A partire da €14.500</p>
+        <button>Scopri di più</button>
+      </div>
+    </div>
+  </div>
+  <div class="section" id="contatti">
+    <h2>Contattaci</h2>
+    <p><i class="fas fa-phone"></i> Telefono: 0123 456789</p>
+    <p><i class="fas fa-envelope"></i> Email: info@autotgf.it</p>
+    <p><i class="fas fa-map-marker-alt"></i> Indirizzo: Via Roma 123, Milano</p>
+  </div>
+  <footer class="footer">
+<div class="social-icons">
+  <a href="https://wa.me/1234567890" class="whatsapp" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <a href="https://facebook.com/autotgf" class="facebook" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
+  <a href="https://instagram.com/autotgf" class="instagram" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+</div>
+    <p>&copy; 2025 autoTGF. Tutti i diritti riservati.</p>
+  </footer>
+</body>
+</html>
